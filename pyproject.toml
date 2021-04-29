@@ -9,6 +9,9 @@ authors = ["Britodfbr <britodfbr@gmail.com>"]
 description = "Aplicação Flask do curso python impressionador"
 name = "incolumepy.comunidadeimpressionadora"
 version = "0.1.0"
+packages=[
+    {include = 'incolumepy/comunidadeimpressionadora', from='src'},
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"

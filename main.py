@@ -1,4 +1,4 @@
-from comunidadeimpressionadora import app
+from src.incolumepy.comunidadeimpressionadora import app
 
 if __name__ == '__main__':
     app.run(debug=True)

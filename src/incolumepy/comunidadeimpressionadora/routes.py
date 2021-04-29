@@ -1,8 +1,8 @@
 from flask import render_template, redirect, url_for, flash, request
-from comunidadeimpressionadora import app, database, bcrypt
-from comunidadeimpressionadora.forms import FormLogin, FormCriarConta, FormEditarPerfil
-from comunidadeimpressionadora.models import Usuario
 from flask_login import login_user, logout_user, current_user, login_required
+from . import app, database, bcrypt
+from .forms import FormLogin, FormCriarConta, FormEditarPerfil
+from .models import Usuario
 
 lista_usuarios = ['Lira', 'João', 'Alon', 'Alessandra', 'Amanda']
 
